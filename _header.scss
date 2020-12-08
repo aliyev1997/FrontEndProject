@@ -1,0 +1,86 @@
+#header{
+    width:100%;
+    height:505px;
+    
+    .header-top-upper{
+        width: 100%;
+        height: 38px;
+        .ul{
+            display: inline;
+            .li{
+                display: inline;
+            }
+        }
+        .container{
+            width: 290px;
+            height: 38px;
+            background-color: yellow;
+
+
+        }
+    }
+}
+
+
+$colwidth:100%/12;
+
+
+.header-top-bottom{
+    width: 100%;
+    height:100px;
+    .container{
+        
+        width: 943px;
+        height: 57px;
+        .row{
+            display: flex;
+            justify-content: space-between;
+            height: 100%;
+            width: 100%;
+            
+            
+
+            .col1{
+                width: $colwidth*1;
+            }
+            .col2{
+                width: $colwidth*2;
+            }
+            .col3{
+                width: $colwidth*3;
+            }
+            .col4{
+                width: $colwidth*4;
+            }
+            .col5{
+                width: $colwidth*5;
+            }
+            .col6{
+                width: $colwidth*6;
+                .ul{
+                    display: inline;
+                    
+                }
+            }
+            .col7{
+                width: $colwidth*7;
+            }
+            .col8{
+                width: $colwidth*8;
+            }
+            .col9{
+                width: $colwidth*9;
+            }
+            .col10{
+                width: $colwidth*10;
+            }
+            .col11{
+                width: $colwidth*11;
+            }
+            .col12{
+                width: $colwidth*12;
+            }
+        }
+
+    }
+}
