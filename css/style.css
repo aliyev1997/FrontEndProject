@@ -1,0 +1,258 @@
+/* Setting up our grid */
+.container {
+  width: 1190px;
+  /*Set the width of the entire website here */
+  margin-right: auto;
+  margin-left: auto;
+  /* Margin-left and right are set to auto to center the container */
+}
+
+.seven:first-child, .eight:first-child, .nine:first-child, .ten:first-child, .eleven:first-child, .five:first-child, .four:first-child, .three:first-child, .two:first-child, .one:first-child, .six:first-child {
+  margin-left: 0;
+  /* This line of code makes the left-most column align to the left of the screen */
+}
+
+.eleven {
+  width: 91.5%;
+  float: left;
+  margin-left: 2%;
+}
+
+.ten {
+  width: 83%;
+  float: left;
+  margin-left: 2%;
+}
+
+.nine {
+  width: 74.5%;
+  float: left;
+  margin-left: 2%;
+}
+
+.eight {
+  width: 66%;
+  float: left;
+  margin-left: 2%;
+}
+
+.seven {
+  width: 57.5%;
+  float: left;
+  margin-left: 2%;
+}
+
+.six {
+  width: 49%;
+  /* This div spans six columns (the entire row)*/
+  float: left;
+  margin-left: 2%;
+}
+
+.five {
+  width: 40.5%;
+  /* This div spans five columns */
+  margin-left: 2%;
+  float: left;
+}
+
+.four {
+  width: 32%;
+  float: left;
+  margin-left: 2%;
+}
+
+.three {
+  width: 23.5%;
+  float: left;
+  margin-left: 2%;
+}
+
+.two {
+  width: 15%;
+  float: left;
+  margin-left: 2%;
+}
+
+.one {
+  width: 6.5%;
+  float: left;
+  margin-left: 2%;
+}
+
+.row {
+  width: 1190px;
+  clear: both;
+  /* Clear creates new styles for the next row */
+  padding: 0px;
+  margin: 0px;
+}
+
+.header_top_left {
+  height: 40px;
+  border: 3px solid black;
+  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.header_top_left .ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.header_top_left .ul .il {
+  display: inline-block;
+}
+
+.header_top_right {
+  height: 40px;
+  border: 3px solid red;
+}
+
+.menu {
+  height: 100px;
+  border: 2px solid green;
+}
+
+.menu .logo {
+  height: 100px;
+  border: 1px solid yellow;
+}
+
+.menu .nav {
+  height: 100px;
+  border: 1px solid blue;
+}
+
+.menu .icon {
+  height: 100px;
+  border: 1px solid black;
+}
+
+.welcome {
+  height: 370px;
+  background-color: orange;
+}
+
+.catalogue {
+  height: 470px;
+  border: 1px solid red;
+}
+
+.catalogue .catalogue-row2 {
+  height: 150px;
+  border: 1px solid green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: block;
+}
+
+.catalogue .catalogue-row2 .box1 {
+  height: 150px;
+  width: 200px;
+  border: 1px solid blue;
+}
+
+.catalogue .catalogue-row2 .box2 {
+  height: 150px;
+  width: 200px;
+  border: 1px solid blue;
+}
+
+.catalogue .catalogue-row2 .box3 {
+  height: 150px;
+  width: 200px;
+  border: 1px solid blue;
+}
+
+.catalogue .catalogue-row2 .box4 {
+  height: 150px;
+  width: 200px;
+  border: 1px solid blue;
+}
+
+.catalogue .catalogue-row1 {
+  height: 150px;
+  border: 2px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: block;
+}
+
+.catalogue .catalogue-row1 .box1 {
+  height: 150px;
+  width: 200px;
+  border: 1px solid blue;
+}
+
+.catalogue .catalogue-row1 .box1 {
+  height: 150px;
+  width: 200px;
+  border: 1px solid blue;
+}
+
+.catalogue .catalogue-row1 .box2 {
+  height: 150px;
+  width: 200px;
+  border: 1px solid blue;
+}
+
+.catalogue .catalogue-row1 .box3 {
+  height: 150px;
+  width: 200px;
+  border: 1px solid blue;
+}
+
+.catalogue .catalogue-row1 .box4 {
+  height: 150px;
+  width: 200px;
+  border: 1px solid blue;
+}
+
+.statistics {
+  height: 217px;
+  border: yellow;
+}
+
+.statistics .box1 {
+  height: 217px;
+  border: 1px solid red;
+}
+
+.statistics .box2 {
+  height: 217px;
+  border: 1px solid red;
+}
+
+.statistics .box3 {
+  height: 217px;
+  border: 1px solid red;
+}
+
+.statistics .box4 {
+  height: 217px;
+  border: 1px solid red;
+}
+
+.statistics .box5 {
+  height: 217px;
+  border: 1px solid red;
+}
+/*# sourceMappingURL=style.css.map */
