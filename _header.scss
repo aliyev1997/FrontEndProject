@@ -1,115 +1,161 @@
-.header_top_left{
-            height: 40px;
-            border: 3px solid black;
+.header_top_left {
+    height: 40px;
+    border: 3px solid black;
+    display: inline-block;
+    display: flex;
+    justify-content: flex-start;
+    ;
+    .ul {
+        display: flex;
+        justify-content: flex-start;
+        .il {
             display: inline-block;
-            display: flex;
-            justify-content: flex-start;;
-            .ul{
-                display: flex;
-                justify-content: flex-start;
-           
-                
-                
-                .il{
-                    display: inline-block;
-        
-                }
-            }  
-
         }
-   
-.header_top_right{
+    }
+}
+
+.header_top_right {
     height: 40px;
     border: 3px solid red;
 }
 
-.menu{
+.menu {
     height: 100px;
     border: 2px solid green;
-    .logo{
+    .logo {
         height: 100px;
         border: 1px solid yellow;
-
     }
-    .nav{
+    .nav {
         height: 100px;
         border: 1px solid blue;
     }
-    .icon{
+    .icon {
         height: 100px;
         border: 1px solid black;
     }
 }
-            
-.welcome{
+
+.welcome {
     height: 370px;
-    background-color: orange;;
+    background-color: orange;
+    ;
 }
-.catalogue{
-    height:470px;
-    border: 1px solid red ;
-    
+
+.catalogue {
+    height: 470px;
+    border: 1px solid red;
     //justify-content: center;
-    
-    .catalogue-row2{
+    .catalogue-row2 {
         height: 150px;
         border: 1px solid green;
         display: flex;
         justify-content: space-between;
         display: block;
-        .box1{
+        .box1 {
             height: 150px;
             width: 200px;
             border: 1px solid blue;
         }
-        .box2{
+        .box2 {
             height: 150px;
             width: 200px;
             border: 1px solid blue;
         }
-        .box3{
+        .box3 {
             height: 150px;
             width: 200px;
             border: 1px solid blue;
         }
-        .box4{
+        .box4 {
             height: 150px;
             width: 200px;
             border: 1px solid blue;
         }
-
     }
-    .catalogue-row1{
+    .catalogue-row1 {
         height: 150px;
         border: 2px solid black;
         display: flex;
         justify-content: space-between;
         display: block;
-        .box1{
+        .box1 {
             height: 150px;
             width: 200px;
             border: 1px solid blue;
         }
-        .box1{
+        .box1 {
             height: 150px;
             width: 200px;
             border: 1px solid blue;
         }
-        .box2{
+        .box2 {
             height: 150px;
             width: 200px;
             border: 1px solid blue;
         }
-        .box3{
+        .box3 {
             height: 150px;
             width: 200px;
             border: 1px solid blue;
         }
-        .box4{
+        .box4 {
             height: 150px;
             width: 200px;
             border: 1px solid blue;
         }
     }
+}
+
+.header-nav {
+    .row {
+        display: flex;
+        align-items: center;
+    }
+    border-bottom: 1px solid gray;
+    .header-nav-items {
+        ul {
+            display: flex;
+            li {
+                list-style: none;
+                margin: 0px 10px;
+            }
+        }
+    }
+}
+
+button{
+    border:none;
+    background:none;
+    
+}
+.header-nav{
+    .button{
+        background-color: #005c8c;
+        background: cover;
+        border-radius: 5px;
+        width: 160px;
+        height: 45px;
+        text-align:center;
+        align-items: center;
+            :hover{
+                background-color: yellow;
+                cursor: pointer;
+                transition-duration: 0.7s;
+                
+            }
+        
+        
+        
+    }
+}
+
+.slider {
+    height: 370px;
+    width: 1180px;
+    background: url(/img/hands-house.jpg);
+    background-size: cover;
+    
+    border: 2px solid red;
     
 }

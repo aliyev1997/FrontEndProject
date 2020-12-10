@@ -1,0 +1,16 @@
+#do{
+    height: 670px;
+    display: flex;
+    .not-active{
+        height: 170px;
+        border: 1px solid red;
+        width: 1183px;
+        
+    
+    }
+    .active{
+        height: 500px;
+        width: 1183px;
+        border:1px solid violet;
+    }
+}
