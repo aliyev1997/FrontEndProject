@@ -118,94 +118,6 @@
   border: 1px solid black;
 }
 
-.welcome {
-  height: 370px;
-  background-color: orange;
-}
-
-.catalogue {
-  height: 470px;
-  border: 1px solid red;
-}
-
-.catalogue .catalogue-row2 {
-  height: 150px;
-  border: 1px solid green;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  display: block;
-}
-
-.catalogue .catalogue-row2 .box1 {
-  height: 150px;
-  width: 200px;
-  border: 1px solid blue;
-}
-
-.catalogue .catalogue-row2 .box2 {
-  height: 150px;
-  width: 200px;
-  border: 1px solid blue;
-}
-
-.catalogue .catalogue-row2 .box3 {
-  height: 150px;
-  width: 200px;
-  border: 1px solid blue;
-}
-
-.catalogue .catalogue-row2 .box4 {
-  height: 150px;
-  width: 200px;
-  border: 1px solid blue;
-}
-
-.catalogue .catalogue-row1 {
-  height: 150px;
-  border: 2px solid black;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  display: block;
-}
-
-.catalogue .catalogue-row1 .box1 {
-  height: 150px;
-  width: 200px;
-  border: 1px solid blue;
-}
-
-.catalogue .catalogue-row1 .box1 {
-  height: 150px;
-  width: 200px;
-  border: 1px solid blue;
-}
-
-.catalogue .catalogue-row1 .box2 {
-  height: 150px;
-  width: 200px;
-  border: 1px solid blue;
-}
-
-.catalogue .catalogue-row1 .box3 {
-  height: 150px;
-  width: 200px;
-  border: 1px solid blue;
-}
-
-.catalogue .catalogue-row1 .box4 {
-  height: 150px;
-  width: 200px;
-  border: 1px solid blue;
-}
-
 .header-nav {
   border-bottom: 1px solid gray;
 }
@@ -230,6 +142,19 @@
   margin: 0px 10px;
 }
 
+.logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.logos .span {
+  margin-left: 20px;
+}
+
 button {
   border: none;
   background: none;
@@ -247,11 +172,12 @@ button {
           align-items: center;
 }
 
-.header-nav .button :hover {
-  background-color: yellow;
+.button:hover {
+  background-color: #ffbf11;
   cursor: pointer;
-  -webkit-transition-duration: 0.7s;
-          transition-duration: 0.7s;
+  width: 100%;
+  -webkit-transition: duration 0.7s;
+  transition: duration 0.7s;
 }
 
 .slider {
@@ -260,6 +186,47 @@ button {
   background: url(/img/hands-house.jpg);
   background-size: cover;
   border: 2px solid red;
+}
+
+.slider .layout {
+  height: 370px;
+  width: 1180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.press {
+  width: 140px;
+  height: 40px;
+  background-color: white;
+}
+
+.press:hover {
+  background-color: #005c8c;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.contact {
+  background-color: #ffbf11;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.contact:hover {
+  background-color: #005c8c;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
 }
 
 .catalogue {
@@ -368,6 +335,130 @@ button {
   background-size: cover;
 }
 
+.plumbing {
+  font-size: 32px;
+  font-family: fantasy;
+  font-weight: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.renovation {
+  font-size: 32px;
+  font-family: fantasy;
+  font-weight: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.windows {
+  font-size: 32px;
+  font-family: fantasy;
+  font-weight: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.carpentry {
+  font-size: 32px;
+  font-family: fantasy;
+  font-weight: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.painting {
+  font-size: 32px;
+  font-family: fantasy;
+  font-weight: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.electrical {
+  font-size: 32px;
+  font-family: fantasy;
+  font-weight: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flooring {
+  font-size: 32px;
+  font-family: fantasy;
+  font-weight: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flooring :hover {
+  cursor: pointer;
+}
+
+.assembly {
+  font-size: 32px;
+  font-family: fantasy;
+  font-weight: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 #statistics {
   height: 217px;
 }
@@ -387,6 +478,34 @@ button {
   width: 200px;
   border: 1px solid yellow;
   display: inline-block;
+}
+
+.quality {
+  font-weight: bold;
+  font-size: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.projects_done {
+  font-weight: bold;
+  font-size: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #about_us {
@@ -415,6 +534,11 @@ button {
   display: inline-block;
 }
 
+.chat {
+  width: 287;
+  height: 425;
+}
+
 #do {
   height: 670px;
   display: -webkit-box;
@@ -432,6 +556,27 @@ button {
   height: 500px;
   width: 1183px;
   border: 1px solid violet;
+}
+
+.read {
+  width: 115px;
+  height: 45px;
+  background-color: #ffbf11;
+  font-weight: bold;
+  font-size: 25px;
+  font: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.read :hover {
+  background-color: #005c8c;
+  cursor: pointer;
+  width: 100%;
 }
 
 #footer {
