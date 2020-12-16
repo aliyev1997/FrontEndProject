@@ -182,7 +182,7 @@ button {
 
 .slider {
   height: 370px;
-  width: 1180px;
+  width: 1183px;
   background: url(/img/hands-house.jpg);
   background-size: cover;
   border: 2px solid red;
@@ -348,6 +348,16 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+}
+
+.plumbing:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .renovation {
@@ -365,6 +375,16 @@ button {
           align-items: center;
 }
 
+.renovation:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+}
+
 .windows {
   font-size: 32px;
   font-family: fantasy;
@@ -378,6 +398,16 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.windows:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
 }
 
 .carpentry {
@@ -395,6 +425,16 @@ button {
           align-items: center;
 }
 
+.carpentry:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+}
+
 .painting {
   font-size: 32px;
   font-family: fantasy;
@@ -408,6 +448,16 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.painting:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
 }
 
 .electrical {
@@ -425,6 +475,16 @@ button {
           align-items: center;
 }
 
+.electrical:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+}
+
 .flooring {
   font-size: 32px;
   font-family: fantasy;
@@ -440,8 +500,14 @@ button {
           align-items: center;
 }
 
-.flooring :hover {
+.flooring:hover {
   cursor: pointer;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
 }
 
 .assembly {
@@ -459,13 +525,31 @@ button {
           align-items: center;
 }
 
+.assembly:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+}
+
 #statistics {
   height: 217px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .numbers {
-  width: 1182px;
-  border: 2px solid red;
+  background: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -510,6 +594,7 @@ button {
 
 #about_us {
   height: 700px;
+  background: url(/img/about_us.jpg);
 }
 
 #about_us .info {
@@ -527,16 +612,79 @@ button {
       justify-content: space-around;
 }
 
-#about_us .main .col-4 {
-  height: 445px;
-  width: 330px;
-  border: 2px solid black;
-  display: inline-block;
+.chat {
+  width: 290px;
+  height: 425px;
+  background: #005c8c;
 }
 
-.chat {
-  width: 287;
-  height: 425;
+.number span {
+  font-size: 700px;
+}
+
+.alive {
+  height: 150px;
+  background: url(/img/coupon.jpg);
+  background: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.alive .cupon {
+  height: 50px;
+  width: 200px;
+  background: #005c8c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cupon:hover {
+  cursor: pointer;
+  background-color: yellow;
+}
+
+.click {
+  height: 50px;
+  width: 200px;
+}
+
+.click:hover {
+  cursor: pointer;
+}
+
+#feedback {
+  height: 506px;
+}
+
+.inside {
+  background: url(/img/feedback.jpg);
+  background: cover;
+  background-repeat: no-repeat;
+  width: 1183px;
+  height: 506px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #do {
@@ -579,13 +727,72 @@ button {
   width: 100%;
 }
 
+#partners {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 215px;
+  width: 1300px;
+  background: url(/img/partners.png);
+}
+
+#before {
+  height: 120px;
+  width: 1300px;
+}
+
+.line {
+  height: 150px;
+  width: 1300px;
+  background-color: #005c8c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.writing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.new-one {
+  height: 55px;
+  width: 200px;
+  background: yellow;
+}
+
+.new-one:hover {
+  background: white;
+  cursor: pointer;
+}
+
 #footer {
-  height: 1500px;
+  height: 400px;
+  width: 1300px;
 }
 
 #footer .container {
-  width: 1183px;
-  height: 150px;
-  border: 1px solid red;
+  width: 1300px;
+  height: 400px;
+  background-color: black;
 }
 /*# sourceMappingURL=style.css.map */
