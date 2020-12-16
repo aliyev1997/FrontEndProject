@@ -594,13 +594,11 @@ button {
 
 #about_us {
   height: 700px;
-  background: url(/img/about_us.jpg);
 }
 
 #about_us .info {
   height: 150px;
   width: 1180px;
-  border: 1px solid green;
 }
 
 #about_us .main {
@@ -612,18 +610,26 @@ button {
       justify-content: space-around;
 }
 
+.full-view {
+  background: url(/img/about_us.jpg);
+  height: 700px;
+  width: 1183px;
+}
+
 .chat {
   width: 290px;
   height: 425px;
   background: #005c8c;
 }
 
-.number span {
-  font-size: 700px;
+.number {
+  font-size: 90px;
+  font-weight: 50px;
 }
 
 .alive {
   height: 150px;
+  width: 1183px;
   background: url(/img/coupon.jpg);
   background: cover;
   display: -webkit-box;
@@ -696,14 +702,23 @@ button {
 
 #do .not-active {
   height: 170px;
-  border: 1px solid red;
+  background: gray;
   width: 1183px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #do .active {
   height: 500px;
   width: 1183px;
-  border: 1px solid violet;
+  background: gray;
 }
 
 .read {
@@ -739,11 +754,15 @@ button {
           align-items: center;
   height: 215px;
   width: 1300px;
+}
+
+.sponsors {
   background: url(/img/partners.png);
+  height: 215px;
 }
 
 #before {
-  height: 120px;
+  height: 150px;
   width: 1300px;
 }
 
@@ -790,9 +809,9 @@ button {
   width: 1300px;
 }
 
-#footer .container {
-  width: 1300px;
+.informasiya {
   height: 400px;
-  background-color: black;
+  width: 1183px;
+  background: black;
 }
 /*# sourceMappingURL=style.css.map */
