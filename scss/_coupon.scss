@@ -1,0 +1,36 @@
+.alive{
+    height: 150px;
+    width:1183px;
+
+    background:url(/img/coupon.jpg);
+    background: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.alive .cupon{
+    height: 50px;
+    width: 200px;
+    background:#005c8c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cupon:hover{
+    cursor: pointer;
+    background-color: yellow;
+}
+
+.click{
+    height: 50px;
+    width: 200px;
+    
+
+}
+.click:hover{
+    cursor: pointer;
+
+}
