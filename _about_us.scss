@@ -1,0 +1,39 @@
+#about_us{
+    height: 700px;
+    
+    .info{
+        height: 150px;
+        width: 1180px;
+       
+        
+    }
+    .main{
+        width: 1180px;
+        display: flex;
+        justify-content: space-around;
+        
+        
+    }
+}
+
+
+.full-view{
+    background: url(/img/about_us.jpg);
+    height: 700px;
+    width: 1183px;
+}
+.chat{
+    width: 290px;
+    height:425px;
+    background:#005c8c;
+}
+
+
+.number{
+    font-size: 95px;
+    font-weight: 50px;
+    line-height: 20px;
+    font-weight: bold;
+    font-family:  'Web', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+    color:#ffbf11;
+}

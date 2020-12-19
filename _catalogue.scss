@@ -1,0 +1,281 @@
+.catalogue{
+    width: 1180px;
+    height:480px;
+    background: url(/img/2-2.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+.layout{
+    justify-content: center;
+    align-items: center;
+    
+    .first{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .second{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+}
+
+.layout{
+    width: 940px;
+    height: 340px;
+    
+    
+    
+    
+         .plumbing{
+            background: url(/img/plumbing.jpg);
+            background-size: cover;
+            height: 150px;
+            width: 205px;
+            margin: 0px;
+            
+            
+            
+        }
+        .renovation{
+            background: url(/img/renovation.jpg);
+            background-size: cover;
+            width: 205px;
+            height: 150px;
+            margin: 0px;
+        }
+        .assembly{
+            width: 205px;
+            height: 150px;
+            background: url(/img/asembly.jpg);
+            background-size: cover;
+        }
+        .windows{
+            width: 205px;
+            height: 150px;
+            background: url(/img/windows.jpg);
+            background-size: cover;
+        }
+        .painting{
+            width: 205px;
+            height: 150px;
+            background: url(/img/painting.jpg);
+            background-size: cover;
+            
+        }
+        .electrical{
+            width: 205px;
+            height: 150px;
+            background: url(/img/electrical.jpg);
+            background-size: cover;
+        }
+        .carpentry{
+            width: 205px;
+            height: 150px;
+            background: url(/img/carpentry.jpg);
+            background-size: cover;
+        }
+        .flooring{
+            width: 205px;
+            height: 150px;
+            background: url(/img/flooring.jpg);
+            background-size: cover;
+        }
+    
+}
+
+//.service {
+   // .row {
+        //justify-content: center;
+        //align-items: center;
+        //justify-content: space-around;
+        
+  ////  }
+//}
+
+.item{
+ 
+    
+    
+}
+.plumbing{
+   font-size: 26px;
+   font-family: fantasy;
+   font-weight: normal;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition: transform .2s;
+   color:white;
+   
+   
+
+  
+} 
+.plumbing:hover{
+
+    
+    transform: scale(1.1);
+      
+}
+.plumbing span:hover{
+    font-size: 26px;
+    cursor: pointer;
+    color: #ffbf11;
+    border-bottom: 2px solid #ffbf11;
+}
+.renovation{
+   font-size: 26px;
+   font-family:'Titillium Web', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+   font-family: fantasy;
+   font-weight: normal;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color:white;
+
+}
+.renovation:hover{
+    
+        transform: scale(1.1);
+        transition: transform .2s; 
+             
+}
+
+
+.renovation span:hover{
+    font-size: 26px;
+    cursor: pointer;
+    color: #ffbf11;
+    border-bottom: 2px solid #ffbf11;
+}
+.windows{
+   font-size: 26px;
+   font-family: fantasy;
+   font-weight: normal;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color:white;
+}
+.windows:hover{
+    
+    transform: scale(1.1);
+    transition: transform .2s;  
+}
+.windows span:hover{
+    font-size: 26px;
+    cursor: pointer;
+    color: #ffbf11;
+    border-bottom: 2px solid #ffbf11;
+}
+.carpentry{
+    font-size: 26px;
+   font-family: fantasy;
+   font-weight: normal;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color:white;
+}
+.carpentry:hover{
+    
+    transform: scale(1.1);
+    transition: transform .2s;  
+}
+.carpentry span:hover{
+    font-size: 26px;
+    cursor: pointer;
+    color: #ffbf11;
+    border-bottom: 2px solid #ffbf11;
+}
+.painting{
+    font-size: 26px;
+   font-family: fantasy;
+   font-weight: normal;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color:white;
+}
+.painting:hover{
+   
+    transform: scale(1.1);
+    transition: transform .2s;  
+}
+.painting span:hover{
+    font-size: 26px;
+    cursor: pointer;
+    color: #ffbf11;
+    border-bottom: 2px solid #ffbf11;
+}
+.electrical{
+    font-size: 26px;
+   font-family: fantasy;
+   font-weight: normal;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color:white;
+}
+.electrical:hover{
+   
+    transform: scale(1.1);
+    transition: transform .2s;  
+}
+.electrical span:hover{
+    font-size: 26px;
+    cursor: pointer;
+    color: #ffbf11;
+    border-bottom: 2px solid #ffbf11;
+}
+.flooring{
+    font-size: 26px;
+   font-family: fantasy;
+   font-weight: normal;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color:white;
+}
+.flooring:hover{
+  
+    transform: scale(1.1);
+    transition: transform .2s;  
+}
+.flooring span:hover{
+    font-size: 26px;
+    cursor: pointer;
+    color: #ffbf11;
+    border-bottom: 2px solid #ffbf11;
+}
+
+.assembly{
+    font-size: 26px;
+   font-family: fantasy;
+   font-weight: normal;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color:white;
+}
+.assembly:hover{
+    
+    transform: scale(1.1);
+    transition: transform .2s;  
+}
+.assembly span:hover{
+    font-size: 26px;
+    cursor: pointer;
+    color: #ffbf11;
+    border-bottom: 2px solid #ffbf11;
+}
+
+
