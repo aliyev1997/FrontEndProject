@@ -9,24 +9,32 @@
     background: white;
     
     display:flex;
-    justify-content: space-around;
+   
     .col-2{
         height: 90px;
         width: 200px;
-        border: 1px solid yellow;
+        
         display: inline-block;
     }
 }
 
 
 .quality{
-    font-weight: bold;
-    font-size: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: column;
+}
+.quality span{
+    font-size: 48px;
+    font-weight: 10px;
+    line-height: 15px;
+    font-weight: bold;
+    font-family:  'Web', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+    color:#ffbf11;
     
 }
+.quality
 
 .projects_done{
     font-weight: bold;
@@ -35,4 +43,43 @@
     justify-content: center;
     align-items: center;
 
+}
+.projects_done span{
+    font-size: 48px;
+    font-weight: 10px;
+    line-height: 15px;
+    font-weight: bold;
+    font-family:  'Web', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+    color:#ffbf11;
+    
+}
+
+.people_working span{
+    font-size: 48px;
+    font-weight: 10px;
+    line-height: 15px;
+    font-weight: bold;
+    font-family:  'Web', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+    color:#ffbf11;
+    
+}
+
+.business_partners span{
+    font-size: 48px;
+    font-weight: 10px;
+    line-height: 15px;
+    font-weight: bold;
+    font-family:  'Web', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+    color:#ffbf11;
+    
+}
+
+.happy_clients span{
+    font-size: 48px;
+    font-weight: 10px;
+    line-height: 15px;
+    font-weight: bold;
+    font-family:  'Web', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+    color:#ffbf11;
+    
 }

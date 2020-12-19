@@ -42,6 +42,7 @@
             margin: 0px;
             
             
+            
         }
         .renovation{
             background: url(/img/renovation.jpg);
@@ -99,15 +100,20 @@
   ////  }
 //}
 
-
+.item{
+ 
+    
+    
+}
 .plumbing{
-   font-size: 32px;
+   font-size: 26px;
    font-family: fantasy;
    font-weight: normal;
    display: flex;
    justify-content: center;
    align-items: center;
    transition: transform .2s;
+   color:white;
    
    
 
@@ -115,106 +121,161 @@
 } 
 .plumbing:hover{
 
-    cursor: pointer;
+    
     transform: scale(1.1);
-    
-
-    
+      
 }
-
+.plumbing span:hover{
+    font-size: 26px;
+    cursor: pointer;
+    color: #ffbf11;
+    border-bottom: 2px solid #ffbf11;
+}
 .renovation{
-   font-size: 32px;
+   font-size: 26px;
+   font-family:'Titillium Web', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
    font-family: fantasy;
    font-weight: normal;
    display: flex;
    justify-content: center;
    align-items: center;
+   color:white;
 
 }
-
 .renovation:hover{
+    
+        transform: scale(1.1);
+        transition: transform .2s; 
+             
+}
+
+
+.renovation span:hover{
+    font-size: 26px;
     cursor: pointer;
-    transform: scale(1.1);
-    transition: transform .2s;  
+    color: #ffbf11;
+    border-bottom: 2px solid #ffbf11;
 }
 .windows{
-   font-size: 32px;
+   font-size: 26px;
    font-family: fantasy;
    font-weight: normal;
    display: flex;
    justify-content: center;
    align-items: center;
+   color:white;
 }
 .windows:hover{
-    cursor: pointer;
+    
     transform: scale(1.1);
     transition: transform .2s;  
+}
+.windows span:hover{
+    font-size: 26px;
+    cursor: pointer;
+    color: #ffbf11;
+    border-bottom: 2px solid #ffbf11;
 }
 .carpentry{
-    font-size: 32px;
+    font-size: 26px;
    font-family: fantasy;
    font-weight: normal;
    display: flex;
    justify-content: center;
    align-items: center;
+   color:white;
 }
 .carpentry:hover{
-    cursor: pointer;
+    
     transform: scale(1.1);
     transition: transform .2s;  
+}
+.carpentry span:hover{
+    font-size: 26px;
+    cursor: pointer;
+    color: #ffbf11;
+    border-bottom: 2px solid #ffbf11;
 }
 .painting{
-    font-size: 32px;
+    font-size: 26px;
    font-family: fantasy;
    font-weight: normal;
    display: flex;
    justify-content: center;
    align-items: center;
+   color:white;
 }
 .painting:hover{
-    cursor: pointer;
+   
     transform: scale(1.1);
     transition: transform .2s;  
+}
+.painting span:hover{
+    font-size: 26px;
+    cursor: pointer;
+    color: #ffbf11;
+    border-bottom: 2px solid #ffbf11;
 }
 .electrical{
-    font-size: 32px;
+    font-size: 26px;
    font-family: fantasy;
    font-weight: normal;
    display: flex;
    justify-content: center;
    align-items: center;
+   color:white;
 }
 .electrical:hover{
-    cursor: pointer;
+   
     transform: scale(1.1);
     transition: transform .2s;  
 }
+.electrical span:hover{
+    font-size: 26px;
+    cursor: pointer;
+    color: #ffbf11;
+    border-bottom: 2px solid #ffbf11;
+}
 .flooring{
-    font-size: 32px;
+    font-size: 26px;
    font-family: fantasy;
    font-weight: normal;
    display: flex;
    justify-content: center;
    align-items: center;
+   color:white;
 }
 .flooring:hover{
-    cursor: pointer;
+  
     transform: scale(1.1);
     transition: transform .2s;  
+}
+.flooring span:hover{
+    font-size: 26px;
+    cursor: pointer;
+    color: #ffbf11;
+    border-bottom: 2px solid #ffbf11;
 }
 
 .assembly{
-    font-size: 32px;
+    font-size: 26px;
    font-family: fantasy;
    font-weight: normal;
    display: flex;
    justify-content: center;
    align-items: center;
+   color:white;
 }
 .assembly:hover{
-    cursor: pointer;
+    
     transform: scale(1.1);
     transition: transform .2s;  
+}
+.assembly span:hover{
+    font-size: 26px;
+    cursor: pointer;
+    color: #ffbf11;
+    border-bottom: 2px solid #ffbf11;
 }
 
 
