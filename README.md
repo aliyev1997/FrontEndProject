@@ -11,6 +11,7 @@
   Footer, Coupon ve s.
  - Bolmelere deyisiklikler edildi:
     Background images, buttons ve s.
- 
+ # Gun 3:
+ - Header, Slider, Catalogue, Statstics ve About bolmelerine elaveler edildi: icons, color, font, :hover.
 
 
