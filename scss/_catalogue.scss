@@ -125,11 +125,22 @@
     transform: scale(1.1);
       
 }
-.plumbing span:hover{
+
+.plumbing a:hover{
     font-size: 26px;
     cursor: pointer;
     color: #ffbf11;
-    border-bottom: 2px solid #ffbf11;
+    //border-bottom: 2px solid #ffbf11;
+}
+.plumbing a{
+    font-size: 26px;
+   font-family: fantasy;
+   font-weight: normal;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition: transform .2s;
+   color:white;
 }
 .renovation{
    font-size: 26px;

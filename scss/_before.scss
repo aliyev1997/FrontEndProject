@@ -19,19 +19,28 @@
     justify-content: center;
     align-items: center;
 }
-.not{
-
+.writing span{
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
 }
 
 .new-one{
     height: 55px;
     width: 200px;
-    background: yellow;
+    background: #ffbf11;
 }
 
 .new-one:hover{
     background:white;
     cursor: pointer;
     
+
+}
+
+.new-one span{
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
 
 }
