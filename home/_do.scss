@@ -1,0 +1,45 @@
+#do{
+    height: 670px;
+    display: flex;
+    
+    .not-active{
+        height: 170px;
+        background: gray;
+        width: 1183px;
+        display: flex;
+        justify-content: start;
+        
+        align-items: center;
+    
+    }
+    .active{
+        height: 500px;
+        width: 1183px;
+        background: gray;
+      
+        
+        h.5{
+
+
+        }
+    }
+}
+.read{
+    width: 115px;
+    height: 45px;
+    background-color: #ffbf11;
+    font-weight: bold;
+    font-size: 25px;
+    font: white;
+    display: flex;
+    justify-content: center;
+
+    :hover{
+        background-color: #005c8c;
+        cursor: pointer;
+        width: 100%;
+    }
+    
+
+}
+
