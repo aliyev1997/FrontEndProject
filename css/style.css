@@ -351,11 +351,30 @@ button {
           transform: scale(1.1);
 }
 
-.plumbing span:hover {
+.plumbing a:hover {
   font-size: 26px;
   cursor: pointer;
   color: #ffbf11;
-  border-bottom: 2px solid #ffbf11;
+}
+
+.plumbing a {
+  font-size: 26px;
+  font-family: fantasy;
+  font-weight: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+  color: white;
 }
 
 .renovation {
@@ -709,10 +728,76 @@ button {
   width: 1183px;
 }
 
+.birinci {
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+
+.birinci span {
+  color: #ffbf11;
+  font-weight: 700;
+}
+
+#fname {
+  background: #4085a9;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+
+#email {
+  background: #4085a9;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+
+#phone {
+  background: #4085a9;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+
+#area {
+  background: #4085a9;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+
+.chater {
+  width: 150px;
+  height: 40px;
+  background: #ffbf11;
+  margin-bottom: 5px;
+  margin-left: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.chater:hover {
+  cursor: pointer;
+  background: #005c8c;
+}
+
 .chat {
   width: 290px;
   height: 425px;
   background: #005c8c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .number {
@@ -755,14 +840,28 @@ button {
           align-items: center;
 }
 
+.cupon span {
+  color: #ffbf11;
+  font: bold;
+}
+
+.kubok span {
+  color: #005c8c;
+  font-size: 26px;
+  font-weight: 700;
+  font-family: 'Titillium Web', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+}
+
 .cupon:hover {
   cursor: pointer;
-  background-color: yellow;
+  background-color: black;
 }
 
 .click {
   height: 50px;
   width: 200px;
+  font-weight: 700;
+  font-size: 16px;
 }
 
 .click:hover {
@@ -890,10 +989,16 @@ button {
           align-items: center;
 }
 
+.writing span {
+  font-size: 24px;
+  color: white;
+  font-weight: 700;
+}
+
 .new-one {
   height: 55px;
   width: 200px;
-  background: yellow;
+  background: #ffbf11;
 }
 
 .new-one:hover {
@@ -901,14 +1006,129 @@ button {
   cursor: pointer;
 }
 
-#footer {
-  height: 400px;
-  width: 1300px;
+.new-one span {
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
 }
 
-.informasiya {
-  height: 400px;
+#footer {
+  height: 500px;
+  width: 1300px;
+  background: black;
+}
+
+.first_part {
+  height: 320px;
   width: 1183px;
+  background: yellow;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.second_part {
+  height: 105px;
+  width: 1183px;
+  background: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.my_last_logo {
+  height: 105px;
+  background: blue;
+  width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.zeng {
+  height: 105px;
+  width: 400px;
+  background: green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.zeng span {
+  font-size: 26px;
+  font: red;
+}
+
+.salam {
+  height: 105px;
+  width: 15px;
+  background: orange;
+}
+
+.third_part {
+  height: 75px;
+  width: 1183px;
+  background: violet;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.pismo {
+  height: 75px;
+  width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: orange;
+}
+
+.social {
+  height: 75px;
+  background: yellow;
+}
+
+.kontakti {
+  height: 240px;
+  background: white;
+}
+
+.site_map {
+  background: gray;
+  height: 240px;
+}
+
+.popular {
+  height: 240px;
+  background: red;
+}
+
+.open_hours {
+  height: 240px;
   background: black;
 }
 /*# sourceMappingURL=style.css.map */
