@@ -1,0 +1,67 @@
+.slider {
+    height: 370px;
+    width: 1183px;
+    
+    background-size: cover;
+    position: relative;
+    
+    
+    .slide{
+        height:370px;
+        width: 1180px;  
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        }
+}
+
+#next{
+    position: absolute;
+    top: 305px;
+    right:140px;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+  
+  
+    
+}
+#prev{
+    position:absolute;
+    top:305px;
+    left:140px;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+}
+
+.press:hover{
+    background-color:  #005c8c;
+    transition:0.5s;
+    cursor: pointer;
+}
+
+.contact{
+    background-color: #ffbf11;
+    width:100px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+
+.contact:hover{
+    background-color: #005c8c;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+}
+
+
+.yaz{
+    color: white;
+    font-size: 22px;
+    
+}
+
+
+  

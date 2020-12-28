@@ -62,36 +62,16 @@
         <div class="container-full">
             <div class="container">
                 <div class="row">
+                    <div class="col-"></div>
                     <div class="col-12">
-                        <div class="slider">
-                            <div class="layout">
-                                
-                                <div class="col-2">
-                                    <div class="left-arrow">
-                                        
-                                    </div>
-                                </div>
-                                <div class="col-4">
-                                    <div class="yaz">
-                                        <h2>One Can Solve All<br>
-                                            Your House Problems</h2>
-                                    </div>
-                                    <button class="press">Reqeust Services</button>
-                                    <button class='contact'>Contact Us</button>
-                                </div>
-                                <div class="col-4"></div>
-                                <div class="col-2">
-                                   <div class="white">
-                                    
-                                    <p>Right arrow: <i class="arrow right"></i></p>
-                                   </div>
-                                    </div>
-                                </div>
-                                
-                            </div>
-                        </div>                              
-                    
+                        <div class="slide">
+                            <img name='slide' src="" alt="" width="1183" height="370">
+                            <button id='next' onclick="changeImg()"> Next</button>
+                            <button id='prev' onclick="changeLeft()">Prev</button>
+
+                        </div>
                     </div>
+                    
                 </div>
             </div>
         </div>
@@ -309,14 +289,14 @@
                                              <span>QUICK SERVICE REQUEST</span>
                                          </div>
                              
-                                        <input type="text" id="fname" name="fname" value='Name'>
+                                        <input type="text" id="fname" name="fname" placeholder="Name">
                                        
-                                        <input type="text" id="email" name="email" value='email'>
+                                        <input type="text" id="email" name="email" placeholder="Email">
                                         
-                                        <input type="text" id="phone" name="phone" value='Phone'>
+                                        <input type="text" id="phone" name="phone" placeholder="Phone">
                                         
-                                        <textarea id='area' name="message" rows="10" cols="30">
-                                            Message
+                                        <textarea id='area' name="message" placeholder="Message"     rows="10" cols="30">
+                                            
                                             </textarea>
                                         <button class='chater'><h4>SEND A MESSAGE</h4></button>
                                          
@@ -487,12 +467,12 @@
                         <div class="col-3">
                             <div class="site_map">
                                 <h4>Site Map</h4>
-                                <ul>
-                                    <li>About</li>
-                                    <li>Home</li>
-                                    <li>Menu</li>
-                                    <li>Contact</li>
-                                </ul>
+                                <span>
+                                        About <br>
+                                        Home  <br>
+                                        Menu  <br>  
+                                        Contact <br>
+                                </span>
                             </div>
                         </div>
                         <div class="col-3">
@@ -548,6 +528,54 @@
          
     </div>  
     </div>
+    
+   <script>
+           var i = 0; 			// Start Point
+    var images = [];	// Images Array
+    var time = 3000;	// Time Between Switch
+    var next = document.querySelector('#next');
+    var prev = document.querySelector('#prev');
+
+    
+
+    
+
+       
+    // Image List
+    images[0] = "https://handyman-services.cmsmasters.net/wp-content/uploads/2017/06/slide2.jpg";
+    images[1] = "https://handyman-services.cmsmasters.net/wp-content/uploads/2017/06/1-2.jpg";
+    
+
+    
+
+    function changeImg(){
+      document.slide.src = images[i];
+    
+      // Check If Index Is Under Max
+      if(i < images.length - 1){
+        // Add 1 to Index
+        i++; 
+      } 
+      else{
+        i=0;
+    }
+    
+     
+    }
+    function changeLeft(){
+        document.slide.src = images[i];
+        if(i < images.length - 1){
+         i++;
+        }
+        else{
+            i=0;
+        }
+    }
+    window.onload=changeImg;
+   </script> 
+    
+
 </body>
+
 
 </html>
