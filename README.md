@@ -17,6 +17,7 @@
  - Footer, About bolmelerine elaveler edildi.
  - About bolmesine form elave olundu.
  # Gun 5:
+ - Slider(javascript) elave olundu.
  - Javascript kod html-e elave olundu.
  - Slider bolmesine , sliderin css-i yenilendi.
  
