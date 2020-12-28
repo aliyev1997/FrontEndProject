@@ -1,11 +1,12 @@
 .slider {
     height: 370px;
     width: 1183px;
-    background: url(/img/hands-house.jpg);
+    
     background-size: cover;
+    position: relative;
     
     
-    .layout{
+    .slide{
         height:370px;
         width: 1180px;  
         display:flex;
@@ -14,13 +15,24 @@
         }
 }
 
-.press{
-    width: 140px;
-    height: 40px;
-    background-color: white;
+#next{
+    position: absolute;
+    top: 305px;
+    right:140px;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
   
   
     
+}
+#prev{
+    position:absolute;
+    top:305px;
+    left:140px;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
 }
 
 .press:hover{
