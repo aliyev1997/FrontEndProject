@@ -13,8 +13,13 @@
     Background images, buttons ve s.
  # Gun 3:
  - Header, Slider, Catalogue, Statstics ve About bolmelerine elaveler edildi: icons, color, font, :hover.
- # Gun4:
+ # Gun 4:
  - Footer, About bolmelerine elaveler edildi.
  - About bolmesine form elave olundu.
+ # Gun 5:
+ - Javascript kod html-e elave olundu.
+ - Slider bolmesine , sliderin css-i yenilendi.
+ 
+ 
 
 
