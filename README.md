@@ -19,7 +19,7 @@
  # Gun 5:
  - Slider(javascript) elave olundu.
  - Javascript kod html-e elave olundu.
- - Slider bolmesine , sliderin css-i yenilendi.
+ - Slider bolmesinde , sliderin css-i yenilendi.
  
  
 
