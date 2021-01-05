@@ -68,6 +68,76 @@
   width: 100%;
 }
 
+#peak {
+  height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 40px;
+  width: 600px;
+}
+
+#peak ul {
+  display: inline-block;
+}
+
+#peak ul li {
+  display: inline-block;
+  font-size: 12px;
+  margin-left: 15px;
+  color: #3d3d47;
+  font-weight: 600;
+  font-family: 'Titillium Web', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+}
+
+.orange {
+  background: #ffbf11;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 284px;
+  height: 40px;
+  font-family: 'Titillium Web', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.writing_peak {
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid gray;
+}
+
+.fas {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.navigation li:hover {
+  cursor: pointer;
+}
+
 .header_top_right {
   height: 40px;
   border: 3px solid red;
@@ -116,6 +186,9 @@
   list-style: none;
   margin: 0px 10px;
   display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
 }
 
 .logos {
@@ -153,28 +226,79 @@ button {
           align-items: center;
   font-size: 13px;
   font-weight: bold;
+  font-style: normal;
 }
 
 .button:hover {
   background-color: #ffbf11;
   cursor: pointer;
   width: 100%;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+  -webkit-transition-duration: 0.6s;
+          transition-duration: 0.6s;
 }
 
 .button:hover .yazi {
   color: black;
 }
 
-.slider {
-  height: 370px;
-  width: 1183px;
-  background: url(/img/hands-house.jpg);
-  background-size: cover;
+.person:hover {
+  cursor: pointer;
 }
 
-.slider .layout {
+.header-nav-items li:hover {
+  color: #005c8c;
+  cursor: pointer;
+}
+
+#special {
+  color: #ffbf11;
+}
+
+#special_1 {
+  color: #ffbf11;
+}
+
+#special:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.dropdown {
+  position: relative;
+  display: block;
+}
+
+.dropdown-content {
+  position: absolute;
+  top: 50px;
+  height: 120px;
+  width: 120px;
+  background: white;
+  display: none;
+  z-index: 1;
+  font: black;
+}
+
+.dropdown-content a {
+  display: block;
+  border-bottom: 1px solid gray;
+}
+
+.dropdown-content:hover .a {
+  display: block;
+}
+
+.bu:hover .dropdown-content {
+  display: block;
+}
+
+.slider {
+  height: 370px;
+  background-size: cover;
+  position: relative;
+}
+
+.slider .slide {
   height: 370px;
   width: 1180px;
   display: -webkit-box;
@@ -188,10 +312,22 @@ button {
           align-items: center;
 }
 
-.press {
-  width: 140px;
-  height: 40px;
-  background-color: white;
+#next {
+  position: absolute;
+  top: 305px;
+  right: 140px;
+  width: 30px;
+  height: 30px;
+  background-color: yellow;
+}
+
+#prev {
+  position: absolute;
+  top: 305px;
+  left: 140px;
+  width: 30px;
+  height: 30px;
+  background-color: yellow;
 }
 
 .press:hover {
@@ -201,23 +337,65 @@ button {
   cursor: pointer;
 }
 
-.contact {
-  background-color: #ffbf11;
-  width: 100px;
-  height: 40px;
-  border-radius: 5px;
+.slide span {
+  font-size: 34px;
+  font-weight: 700;
+  color: white;
+  position: absolute;
+  top: 250px;
+  left: 245px;
 }
 
-.contact:hover {
-  background-color: #005c8c;
-  width: 100px;
+.contact_us {
   height: 40px;
+  width: 100px;
+  font-size: 12px;
+  font-weight: 700;
+  padding-top: 11px;
+  padding-right: 11px;
+  padding-left: 11px;
+  padding-bottom: 11px;
+  font-family: "Titillium Web";
+  color: black;
+  background-color: #ffbf11;
+  position: absolute;
+  border-radius: 5px;
+  top: 355px;
+  left: 390px;
+}
+
+.contact_us:hover {
   cursor: pointer;
+  background-color: black;
+  color: #ffbf11;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
 }
 
 .yaz {
+  height: 40px;
+  width: 140px;
+  font-size: 12px;
+  font-weight: 700;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-family: 'Titillium Web';
+  color: #005c8c;
+  background-color: white;
+  position: absolute;
+  border-radius: 5px;
+  top: 355px;
+  left: 240px;
+}
+
+.yaz:hover {
+  cursor: pointer;
+  background-color: #005c8c;
   color: white;
-  font-size: 22px;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
 }
 
 .catalogue {
@@ -806,7 +984,10 @@ button {
   line-height: 20px;
   font-weight: bold;
   font-family: 'Web', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
-  color: #ffbf11;
+}
+
+.placeholder {
+  color: red;
 }
 
 .alive {
@@ -1010,6 +1191,289 @@ button {
   color: black;
   font-size: 15px;
   font-weight: 700;
+}
+
+#footer {
+  height: 500px;
+  width: 1300px;
+  background: black;
+}
+
+.first_part {
+  height: 320px;
+  width: 1183px;
+  background: yellow;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.second_part {
+  height: 105px;
+  width: 1183px;
+  background: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.my_last_logo {
+  height: 105px;
+  background: blue;
+  width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.zeng {
+  height: 105px;
+  width: 400px;
+  background: green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.zeng span {
+  font-size: 26px;
+  font: red;
+}
+
+.salam {
+  height: 105px;
+  width: 15px;
+  background: orange;
+}
+
+.third_part {
+  height: 75px;
+  width: 1183px;
+  background: violet;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.pismo {
+  height: 75px;
+  width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: orange;
+}
+
+.social {
+  height: 75px;
+  background: yellow;
+}
+
+.kontakti {
+  height: 240px;
+  background: white;
+}
+
+.site_map {
+  background: gray;
+  height: 240px;
+}
+
+.popular {
+  height: 240px;
+  background: red;
+}
+
+.open_hours {
+  height: 240px;
+  background: black;
+}
+
+.kartina {
+  width: 1183px;
+  height: 206px;
+  background: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.second-main {
+  width: 1183px;
+  height: 776px;
+  background: gray;
+}
+
+.sponsors {
+  width: 1183px;
+  height: 210px;
+  background: url(/img/second-partners.png);
+}
+
+#footer {
+  height: 500px;
+  width: 1300px;
+  background: black;
+}
+
+.first_part {
+  height: 320px;
+  width: 1183px;
+  background: yellow;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.second_part {
+  height: 105px;
+  width: 1183px;
+  background: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.my_last_logo {
+  height: 105px;
+  background: blue;
+  width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.zeng {
+  height: 105px;
+  width: 400px;
+  background: green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.zeng span {
+  font-size: 26px;
+  font: red;
+}
+
+.salam {
+  height: 105px;
+  width: 15px;
+  background: orange;
+}
+
+.third_part {
+  height: 75px;
+  width: 1183px;
+  background: violet;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.pismo {
+  height: 75px;
+  width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: orange;
+}
+
+.social {
+  height: 75px;
+  background: yellow;
+}
+
+.kontakti {
+  height: 240px;
+  background: white;
+}
+
+.site_map {
+  background: gray;
+  height: 240px;
+}
+
+.popular {
+  height: 240px;
+  background: red;
+}
+
+.open_hours {
+  height: 240px;
+  background: black;
+}
+
+.kartina {
+  width: 1183px;
+  height: 206px;
+  background: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#electrical-main {
+  height: 550px;
+  background: red;
+}
+
+#electrical-table {
+  height: 350px;
+  background: yellow;
+}
+
+#electrical_request_bar {
+  height: 500px;
+  background: orange;
 }
 
 #footer {
