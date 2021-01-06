@@ -1,0 +1,49 @@
+#electrical-main{
+    height: 550px;
+    
+
+}
+
+
+
+.just_list{
+    position: absolute;
+    left: 100px;
+}
+.just_list ul{
+    
+}
+.just_list li{
+    display: flex;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    font-size: 17px;
+    &:hover{
+        cursor: pointer;
+        color: #ffbf11;
+        border-bottom: 2px solid #ffbf11;
+    }
+}
+
+.main_text{
+    position:absolute;
+    left:360px;
+    width: 725px;
+}
+
+
+.birinci_image{
+    width: 205px;
+    height: 145px;
+  
+}
+.ikinci_image{
+    width: 205px;
+    height: 145px;
+    padding-left: 40px;
+}
+.ucuncu_image{
+    width: 205px;
+    height: 145px;
+    padding-left: 40px;
+}
