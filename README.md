@@ -24,7 +24,7 @@
  # Gun 6:
  - Database request table numunesi elave olundu.
  - Electrical bolmesi-yeni html, elave olundu.
- - Electrical html hissenin header ve diger hisselerine elaveler olundu.
+ - Electrical html hissenin header ve diger scss hisselerine elaveler olundu.
  
 
 
