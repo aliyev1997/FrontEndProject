@@ -1,0 +1,46 @@
+#before{
+    height: 150px;
+    width: 1300px;
+    
+}
+
+.line{
+    height: 150px;
+    width: 1300px;
+    background-color:#005c8c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.writing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.writing span{
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+}
+
+.new-one{
+    height: 55px;
+    width: 200px;
+    background: #ffbf11;
+}
+
+.new-one:hover{
+    background:white;
+    cursor: pointer;
+    
+
+}
+
+.new-one span{
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+
+}
