@@ -1,0 +1,23 @@
+SQLite format 3@  .,P
+�
+U��
+U�^��ctablerequestrequestCREATE TABLE request(
+        id integer PRIMARY key,
+        firstName VARCHAR(50) not null,
+        email VARCHAR(50) unique not null,
+        messages VARCHAR(750) not null,
+        phone string VARCHAR(50) not null unique
+        )-Aindexsqlite_autoindex_request_2request-Aindexsqlite_autoindex_request_1request�M�utableMarketMarketCREATE TABLE Market(
+        id integer PRIMARY key,
+        firstName VARCHAR(50) not null,
+        lastName VARCHAR(50) not null,
+        messages VARCHAR(250) not null
+        )j�'tableMessagesMessagesCREATE TABLE Messages(
+        id integer PRIMARY key,
+        lname VARCHAR)
+
+����NatiqAliyevSalamAvazAliyevHello
+��0AAvazavaz.aliyev.1997@gmail.comIssue5075015
+��A	avaz.aliyev.1997@gmail.com
+��
+	5075015
