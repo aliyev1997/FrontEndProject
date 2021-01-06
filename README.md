@@ -1,7 +1,7 @@
 # Proje haqqinda: 
   - Servis gosteren shirket ucun web sayt.
   - Numune web sayt: https://preview.themeforest.net/item/handyman-services-construction-renovation-wordpress-theme/full_screen_preview/20350764?_ga=2.160017085.1225035968.1606502809-988906244.1582366517
-  - Veb saytin 3 sehifesi yazilir: Home, Serviser ve Request sehifeleri.
+  - Veb saytin 3 sehifesi yazilir: Home, Servisler ve Request sehifeleri.
 
 # Gun 1:
   - Folder strukturu quruldu: sass, css and html.
