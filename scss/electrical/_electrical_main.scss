@@ -8,26 +8,29 @@
 
 .just_list{
     position: absolute;
-    left: 100px;
+    left: 170px;
 }
 .just_list ul{
+    width: 190px
     
 }
 .just_list li{
     display: flex;
-    border-bottom: 1px solid gray;
-    padding: 10px;
-    font-size: 17px;
+    border-bottom: 1px solid #e8e8e8;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
     &:hover{
         cursor: pointer;
-        color: #ffbf11;
+        color: #ffbf11; 
         border-bottom: 2px solid #ffbf11;
     }
 }
 
 .main_text{
     position:absolute;
-    left:360px;
+    left: 450px;
     width: 725px;
 }
 
