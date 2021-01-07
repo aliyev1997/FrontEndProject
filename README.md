@@ -22,7 +22,7 @@
  - Javascript kod html-e elave olundu.
  - Slider bolmesinde , sliderin css-i yenilendi.
  # Gun 6:
- - Database request table numunesi elave olundu.
+ - Proje database table numuneleri elave olundu.
  - Electrical bolmesi-yeni html, elave olundu.
  - Electrical html hissenin header ve diger scss hisselerine elaveler olundu.
  
