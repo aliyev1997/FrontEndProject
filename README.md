@@ -25,6 +25,7 @@
  - Proje database table numuneleri elave olundu.
  - Electrical bolmesi-yeni html, elave olundu.
  - Electrical html hissenin header ve diger scss hisselerine elaveler olundu.
+
  
 
 
