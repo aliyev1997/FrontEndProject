@@ -25,6 +25,11 @@
  - Proje database table numuneleri elave olundu.
  - Electrical bolmesi-yeni html, elave olundu.
  - Electrical html hissenin header ve diger scss hisselerine elaveler olundu.
+ 
+ # Gun7:
+ - Footer hissessi demek olar ki bitirdi.
+ - Home page Feedback bolmesi bitirildi.
+ 
 
  
 
