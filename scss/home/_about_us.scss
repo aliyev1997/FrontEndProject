@@ -1,5 +1,7 @@
 #about_us{
     height: 700px;
+    margin-bottom: -5px;
+    margin-left: -5px;
     
     .info{
         height: 150px;
@@ -92,5 +94,8 @@
     line-height: 20px;
     font-weight: bold;
     font-family:  'Web', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
-    color:#ffbf11;
+}
+
+.placeholder{
+    color: red;
 }

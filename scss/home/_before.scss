@@ -1,12 +1,14 @@
 #before{
     height: 150px;
     width: 1300px;
+    position: relative;
+    left: 18px;
     
 }
 
 .line{
     height: 150px;
-    width: 1300px;
+    width: 1183px;
     background-color:#005c8c;
     display: flex;
     justify-content: center;
