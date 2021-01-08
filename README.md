@@ -27,7 +27,7 @@
  - Electrical html hissenin header ve diger scss hisselerine elaveler olundu.
  
  # Gun7:
- - Home page Footer hissessi demek olar ki bitirdi.
+ - Home page Footer hissessine elaveler edildi.
  - Home page Feedback bolmesi bitirildi.
  
 
