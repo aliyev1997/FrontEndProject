@@ -1066,6 +1066,117 @@ button {
           justify-content: center;
 }
 
+.comment {
+  background: url(/img/feedback.jpg);
+  background-size: cover;
+  width: 1183px;
+  height: 506px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: relative;
+}
+
+.part {
+  height: 286px;
+  width: 286px;
+  margin-top: 60px;
+}
+
+.lake {
+  width: 286px;
+  height: 213px;
+  border: 1px solid #e8e8e8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.kura_first {
+  padding-left: 15px;
+  line-height: 26px;
+}
+
+.kura_first span {
+  color: white;
+  font-family: 'Hind', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.kura {
+  margin-bottom: 20px;
+  display: block;
+  color: #ffba13;
+  text-align: left;
+  font-family: 'Titillium Web', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 700;
+  font-style: normal;
+  background-color: transparent;
+}
+
+.caspi {
+  width: 200px;
+  height: 50px;
+  border: 1px solid white;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.araz {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+
+.araz_one {
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+}
+
+.samur {
+  height: 50px;
+  width: 150px;
+  background: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.samur h4 {
+  color: white;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.kuba {
+  position: absolute;
+  font-size: 15px;
+  top: 10px;
+  left: 60px;
+  color: white;
+}
+
+.voda {
+  position: absolute;
+  top: 110px;
+  height: 4px;
+  width: 50px;
+}
+
 #do {
   height: 670px;
   display: -webkit-box;
@@ -1192,27 +1303,38 @@ button {
 #footer {
   height: 500px;
   width: 1300px;
-  background: black;
+  background: white;
 }
 
 .first_part {
   height: 320px;
+  position: relative;
   width: 1183px;
+  background: #1c1c1c;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
+.leftest {
+  background: white;
+  width: 50px;
+}
+
+.leftesttwo {
+  background: red;
+  width: 300px;
+}
+
 .second_part {
   height: 105px;
   width: 1183px;
-  background: red;
+  background: #1c1c1c;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1222,8 +1344,8 @@ button {
 }
 
 .my_last_logo {
-  height: 105px;
-  background: blue;
+  height: 130px;
+  background: #1c1c1c;
   width: 600px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1236,7 +1358,7 @@ button {
 .zeng {
   height: 105px;
   width: 400px;
-  background: green;
+  background: #1c1c1c;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1249,8 +1371,12 @@ button {
 }
 
 .zeng span {
-  font-size: 26px;
-  font: red;
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffbf11;
+  font-family: 'Titillium Web', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .salam {
@@ -1262,15 +1388,18 @@ button {
 .third_part {
   height: 75px;
   width: 1183px;
-  background: violet;
+  background: #1c1c1c;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
 .pismo {
-  height: 75px;
+  height: 60px;
   width: 600px;
+  position: absolute;
+  left: 120px;
+  top: -50 px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1280,37 +1409,334 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: orange;
+  background: #1c1c1c;
+}
+
+.pismo span {
+  color: rgba(255, 255, 255, 0.45);
 }
 
 .social {
-  height: 75px;
-  background: yellow;
+  height: 70px;
+  background: #1c1c1c;
 }
 
 .kontakti {
   height: 240px;
+  background: #1c1c1c;
+  width: 222px;
+  position: absolute;
+  left: 100px;
+  bottom: 55px;
+}
+
+.kontakti h3 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+  padding-bottom: 15px;
+  margin-bottom: 40px;
+}
+
+.contact_widget_email {
+  display: block;
+  padding-bottom: 20px;
+  padding-left: 33px;
+  font-family: 'Hind', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: normal;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.contact_widget_email .email {
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.contact_widget_email .email:hover {
+  cursor: pointer;
+  color: white;
+  -webkit-transition-duration: 0.6s;
+          transition-duration: 0.6s;
+}
+
+.contact_widget_phone {
+  display: block;
+  padding-bottom: 20px;
+  padding-left: 33px;
+  font-family: 'Hind', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: normal;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.adres_icon_user_adres {
+  display: block;
+  padding-bottom: 20px;
+  padding-left: 33px;
+  font-family: 'Hind', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: normal;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.45);
 }
 
 .site_map {
-  background: gray;
+  background: #1c1c1c;
+  width: 222px;
   height: 240px;
+  position: absolute;
+  left: 352px;
+  bottom: 55px;
+}
+
+.site_map h3 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+  padding-bottom: 0px;
+  margin-bottom: 40px;
+}
+
+.site_map ul {
+  position: absolute;
+  left: 0px;
+  width: 212px;
+  margin-left: -40px;
 }
 
 .site_map li {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #e8e8e8;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.45);
+  font-family: 'Hind', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+  list-style-type: none;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: normal;
+  font-style: normal;
+  padding-bottom: 7px;
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.site_map li:hover {
+  color: white;
+  cursor: pointer;
 }
 
 .popular {
   height: 240px;
-  background: red;
+  width: 222px;
+  background: #1c1c1c;
+  position: absolute;
+  left: 600px;
+  bottom: 55px;
+}
+
+.popular h3 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+  padding-bottom: 0px;
+  margin-bottom: 40px;
+}
+
+.popular ul {
+  position: absolute;
+  left: 0px;
+  width: 212px;
+  margin-left: -40px;
+}
+
+.popular li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.45);
+  font-family: 'Hind', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+  list-style-type: none;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: normal;
+  font-style: normal;
+  padding-bottom: 7px;
+  padding-top: 10px;
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.popular li:hover {
+  color: white;
+  cursor: pointer;
 }
 
 .open_hours {
   height: 240px;
-  background: black;
+  width: 222px;
+  background: #1c1c1c;
+  position: absolute;
+  left: 842px;
+  bottom: 55px;
+}
+
+.open_hours h3 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+  padding-bottom: 0px;
+  margin-bottom: 40px;
+}
+
+.open_hours ul {
+  position: absolute;
+  left: 0px;
+  width: 212px;
+  margin-left: -40px;
+}
+
+.open_hours li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.45);
+  font-family: 'Hind', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+  list-style-type: none;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: normal;
+  font-style: normal;
+  padding-bottom: 7px;
+  padding-top: 10px;
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.open_hours li:hover {
+  color: white;
+  cursor: pointer;
+}
+
+#linkedin {
+  color: rgba(255, 255, 255, 0.45);
+  margin-left: 13px;
+  margin-bottom: 20px;
+}
+
+#linkedin:hover {
+  cursor: pointer;
+  color: white;
+  -webkit-transition-duration: 0.6s;
+          transition-duration: 0.6s;
+}
+
+#facebook {
+  color: rgba(255, 255, 255, 0.45);
+  margin-left: 13px;
+  margin-bottom: 20px;
+}
+
+#facebook:hover {
+  cursor: pointer;
+  color: white;
+  -webkit-transition-duration: 0.6s;
+          transition-duration: 0.6s;
+}
+
+#gmail {
+  color: rgba(255, 255, 255, 0.45);
+  margin-left: 13px;
+  margin-bottom: 20px;
+}
+
+#gmail:hover {
+  cursor: pointer;
+  color: white;
+  -webkit-transition-duration: 0.6s;
+          transition-duration: 0.6s;
+}
+
+#twitter {
+  color: rgba(255, 255, 255, 0.45);
+  margin-left: 13px;
+  margin-bottom: 20px;
+}
+
+#twitter:hover {
+  cursor: pointer;
+  color: white;
+  -webkit-transition-duration: 0.6s;
+          transition-duration: 0.6s;
+}
+
+#skype {
+  color: rgba(255, 255, 255, 0.45);
+  margin-left: 13px;
+  margin-bottom: 20px;
+}
+
+#skype:hover {
+  cursor: pointer;
+  color: white;
+  -webkit-transition-duration: 0.6s;
+          transition-duration: 0.6s;
+}
+
+#elephant {
+  position: absolute;
+  left: 0px;
+  top: 102px;
+  color: #ffbf11;
+}
+
+#telephonics {
+  color: #ffbf11;
+  position: absolute;
+  left: -20px;
+  top: 142px;
+  size: 15px;
+}
+
+#locationics {
+  color: #ffbf11;
+  position: absolute;
+  left: -20px;
+  top: 182px;
+}
+
+#call_telephone {
+  color: white;
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+.parameter {
+  font-size: 15px;
+  width: 35px;
+  height: 3px;
+  margin-top: -25px;
+}
+
+.parameter_one {
+  font-size: 15px;
+  width: 35px;
+  height: 3px;
+  margin-top: -37px;
+}
+
+.parameter_two {
+  font-size: 15px;
+  width: 35px;
+  height: 3px;
+  margin-top: -25px;
+}
+
+.parameter_three {
+  font-size: 15px;
+  width: 35px;
+  height: 3px;
+  margin-top: -25px;
 }
 
 .kartina {
@@ -1536,7 +1962,9 @@ button {
 
 #footer {
   height: 500px;
-  width: 1300px;
+  width: 1183px;
+  position: absolute;
+  left: 76px;
 }
 
 .first_part {
